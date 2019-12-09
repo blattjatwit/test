@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="364.0" prefWidth="468.0">
+         <children>
+            <Label fx:id="labela" layoutX="1.0" layoutY="22.0" prefHeight="108.0" prefWidth="145.0" />
+            <Button layoutX="43.0" layoutY="130.0" mnemonicParsing="false" onAction="#buttona" text="A" />
+            <Button layoutX="402.0" layoutY="130.0" mnemonicParsing="false" onAction="#buttonb" text="B" />
+            <Button layoutX="43.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttonc" text="C" />
+            <Button layoutX="402.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttond" text="D" />
+            <Label fx:id="labelq" layoutX="102.0" layoutY="75.0" prefHeight="215.0" prefWidth="283.0" />
+            <Label fx:id="labelb" layoutX="355.0" layoutY="25.0" prefHeight="100.0" prefWidth="115.0" />
+            <Label fx:id="labelc" layoutX="7.0" layoutY="203.0" prefHeight="91.0" prefWidth="145.0" />
+            <Label fx:id="labeld" layoutX="345.0" layoutY="199.0" prefHeight="100.0" prefWidth="126.0" />
+         </children></AnchorPane>
+   </children>
+</GridPane>
